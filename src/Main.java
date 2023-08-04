@@ -22,7 +22,7 @@ public class Main {
 
         Integer intBoxed4 = 123456;
         Integer i4;
-        i4 = Integer.valueOf();
+        i4 = intBoxed4.intValue();
 
         Integer intBoxed5 = -654321;
         Integer i5;
@@ -42,7 +42,7 @@ public class Main {
 
         Byte byteBoxed4 = 42;
         Byte a4;
-        a4 = byteBoxed4;
+        a4 = byteBoxed4.byteValue();
 
         Byte byteBoxed5 = 13;
         Byte a5;
@@ -62,7 +62,7 @@ public class Main {
 
         Short shortBoxed4 = 123;
         Short b4;
-        b4 = Short.valueOf();
+        b4 = shortBoxed4.shortValue();
 
         Short shortBoxed5 = -123;
         Short b5;
@@ -82,11 +82,11 @@ public class Main {
 
         Double doubleBoxed4 = 0.546446457567324;
         Double c4;
-        c4 = Double.valueOf();
+        c4 = doubleBoxed4.doubleValue();
 
         Double doubleBoxed5 = 223436556.3453645675674;
         Double c5;
-        c5 = doubleBoxed5
+        c5 = doubleBoxed5;
 
         float d = 0.000000000000000000000000000000000000000000001F;
         Float floatBoxed;
@@ -102,7 +102,7 @@ public class Main {
 
         Float floatBoxed4 = 45857034.4095680495F;
         Float d4;
-        d4 = Float.valueOf();
+        d4 = floatBoxed4.floatValue();
 
         Float floatBoxed5 = 23424.34534F;
         Float d5;
@@ -145,8 +145,8 @@ public class Main {
         z4 = charBoxed4.charValue();
 
         Character charBoxed5 = 1021;
-        Character z4;
-        z4 = charBoxed4;
+        Character z5;
+        z5 = charBoxed4;
 
         boolean x = true;
         Boolean booleanBoxed;
@@ -161,8 +161,8 @@ public class Main {
         booleanBoxed3 = x3;
 
         Boolean booleanBoxed4 = false;
-        Boolean b4;
-        b4 = booleanBoxed4.booleanValue();
+        Boolean x4;
+        x4 = booleanBoxed4.booleanValue();
 
         Boolean booleanBoxed5 = true;
         Boolean x5;
